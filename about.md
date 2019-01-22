@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Rahul Bhalley. I am self-studying machine learning and computation neuroscience. My sole aim is to understand intelligence in both <b>humans</b> and <b>machines</b>.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Connect with me (if you'd like to):
+- Google Scholar: [Rahul Bhalley][google-scholar]
+- GitHub: [rahulbhalley][github]
+- Twitter: [@Rahul_Bhalley][twiiter]
+- Instagram: [rahulbhalley][instagram]
+- Facebook: [Rahul Bhalley][facebook]
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[google-scholar]:   https://scholar.google.co.in/citations?user=5hIJB7oAAAAJ&hl=en
+[github]:           https://www.github.com/rahulbhalley
+[twiiter]:          https://www.twitter.com/@Rahul_Bhalley
+[instagram]:        https://www.instagram.com/rahulbhalley
+[facebook]:         https://www.facebook.com/realcodeboy
