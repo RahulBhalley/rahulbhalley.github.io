@@ -30,7 +30,7 @@ func(x)
 ```
 
 ```swift
-var str = "playgroung"
+var str = "playground"
 print("This is a \(str)")
 ```
 
