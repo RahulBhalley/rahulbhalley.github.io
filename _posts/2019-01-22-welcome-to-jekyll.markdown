@@ -28,6 +28,12 @@ def func(x):
   return x
 func(x)
 ```
+
+```swift
+var str = "playgroung"
+print("This is a \(str)")
+```
+
 \\[f(x) = 2^{x} + 3_{y}\\]
 
 \\( h\_t = \tanh ( W\_{hh} h\_{t-1} + W\_{xh} x\_t ) \\)
