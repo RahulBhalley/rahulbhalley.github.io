@@ -16,8 +16,8 @@
 title: Rahul's Blog
 email: rahulbhalley@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The place where I write about intelligence (either human or machine)
-  as I myself understand it!
+  The place where I make notes about intelligence (**human** and **machine**)
+  as I traverse through time...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Rahul_Bhalley
