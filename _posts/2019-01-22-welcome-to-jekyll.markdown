@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2019-01-22 08:58:50 +0530
 comments: true
-mathjax: true
+title:  "Welcome to Jekyll!"
+excerpt: This is a post
+date:   2019-01-22 08:58:50 +0530
 categories: jekyll update
+mathjax: true
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
@@ -22,7 +24,13 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-Let's try writing some $\LaTeX$ commands: \[f(x) = 2^{x} + 3_{y}\]
+Let's try writing some $\LaTeX$ commands: 
+
+\[f(x) = 2^{x} + 3_{y}\]
+
+\\[ h\_t = \tanh ( W\_{hh} h\_{t-1} + W\_{xh} x\_t ) \\]
+
+\\( h\_t = \tanh ( W\_{hh} h\_{t-1} + W\_{xh} x\_t ) \\)
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
