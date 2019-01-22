@@ -29,7 +29,9 @@ def func(x):
 func(x)
 ```
 
-\\( \zeta(x_{r_{1}}, x_{f_{1}}) \geq 0 )
+\\( h\_t = \tanh ( W\_{hh} h\_{t-1} + W\_{xh} x\_t ) \\)
+
+\\( \\zeta(x\_{r\_{1}}, x\_{f\_{1}}) \\geq 0 \\)
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
