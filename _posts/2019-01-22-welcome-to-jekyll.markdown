@@ -3,8 +3,6 @@ layout: post
 title:  "Welcome to Jekyll!"
 excerpt: "This is a post"
 date:   2019-01-22 10:30:29 +0530
-comments: true
-mathjax: true
 categories: jekyll update
 ---
 
