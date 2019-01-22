@@ -26,11 +26,11 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 Let's try writing some $\LaTeX$ commands: 
 
-\[f(x) = 2^{x} + 3_{y}\]
+In the sentence \[f(x) = 2^{x} + 3_{y}\]
 
-\\[ h\_t = \tanh ( W\_{hh} h\_{t-1} + W\_{xh} x\_t ) \\]
+In the sentence \\[ h\_t = \tanh ( W\_{hh} h\_{t-1} + W\_{xh} x\_t ) \\]
 
-\\( h\_t = \tanh ( W\_{hh} h\_{t-1} + W\_{xh} x\_t ) \\)
+In the sentence \\( h\_t = \tanh ( W\_{hh} h\_{t-1} + W\_{xh} x\_t ) \\)
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
