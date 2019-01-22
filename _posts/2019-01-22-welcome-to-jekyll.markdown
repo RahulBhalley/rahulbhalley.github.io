@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Welcome to Jekyll!"
-excerpt: This is a post
+excerpt: "This is a post"
 date:   2019-01-22 08:58:50 +0530
 categories: jekyll update
 mathjax: true
