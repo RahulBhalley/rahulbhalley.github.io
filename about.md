@@ -3,6 +3,15 @@ layout: page
 title: About
 permalink: /about/
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-92970395-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-92970395-1');
+</script>
 
 My name is Rahul Bhalley. I am self-studying machine learning and computation neuroscience. My sole aim is to understand intelligence in both <b>humans</b> and <b>machines</b>.
 
