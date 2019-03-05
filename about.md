@@ -13,7 +13,7 @@ permalink: /about/
   gtag('config', 'UA-92970395-1');
 </script>
 
-My name is Rahul Bhalley. I am self-studying machine learning and computation neuroscience. My sole aim is to understand intelligence in both <b>humans</b> and <b>machines</b>.
+I am Rahul Bhalley. And I am self-studying machine learning (especially neural networks). My research interests are generative modeling, evaluating generative models, et cetera. My sole aim is to *understand intelligence* in both *humans* and *machines*.
 
 ## Publications
 
