@@ -13,7 +13,9 @@ permalink: /about/
   gtag('config', 'UA-92970395-1');
 </script>
 
-I am Rahul Bhalley. And I am self-studying machine learning (especially neural networks). My research interests are generative modeling, evaluating generative models, et cetera. My sole aim is to *understand intelligence* in both *humans* and *machines*.
+I am Rahul Bhalley. And I am self-studying machine learning (especially neural networks). My research interests are generative modeling, evaluating generative models, et cetera.
+
+My sole aim is to *understand intelligence* in both *humans* and *machines*.
 
 ## Publications
 
