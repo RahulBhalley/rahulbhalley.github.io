@@ -18,10 +18,10 @@ My name is Rahul Bhalley. I am self-studying machine learning and computation ne
 ## Publications
 
 ### Preprints
-- [Artist Style Transfer Via Quadratic Potential](https://arxiv.org/abs/1902.11108) (Rahul Bhalley, Jianlin Su) (arXiv preprint arXiv:1902.11108)
+- [Artist Style Transfer Via Quadratic Potential](https://arxiv.org/abs/1902.11108) (R Bhalley & J Su, 2019) (arXiv preprint arXiv:1902.11108)
 
 ### Conference Papers
-- [ASR—A real-time speech recognition on portable devices](https://ieeexplore.ieee.org/abstract/document/7749004/) (Ajay Shiv Sharma, Rahul Bhalley) (IEEE)
+- [ASR—A real-time speech recognition on portable devices](https://ieeexplore.ieee.org/abstract/document/7749004/) (AS Sharma & R Bhalley, 2016) (IEEE)
 
 Connect with me:
 - Google Scholar: [Rahul Bhalley][google-scholar]
