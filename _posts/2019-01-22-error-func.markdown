@@ -17,5 +17,4 @@ categories: machine learning
   gtag('config', 'UA-92970395-1');
 </script>
 
-{{ content | reading_time_as_s }}
 Writing in progress...
