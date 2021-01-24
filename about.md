@@ -19,6 +19,9 @@ My sole aim is to *understand intelligence* in both *humans* and *machines*.
 
 ## Publications
 
+### Books
+- [Deep Learning with Swift for TensorFlow: Differentiable Programming with Swift](https://link.springer.com/book/10.1007%2F978-1-4842-6330-3)
+
 ### Preprints
 - [Artist Style Transfer Via Quadratic Potential](https://arxiv.org/abs/1902.11108) (R Bhalley & J Su, 2019) (arXiv preprint arXiv:1902.11108)
 
