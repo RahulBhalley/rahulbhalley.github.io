@@ -1,5 +1,3 @@
-# Privacy Policy
-
 **Last Updated:** December 26, 2025
 
 ## Introduction
@@ -25,7 +23,7 @@ At Private Video Recorder (PVR), we are committed to protecting your privacy. Th
 
 - ✅ **Video Recording:** Records video using your device's camera
 - ✅ **Local Storage:** Saves recordings directly to your device's Photos app
-- ✅ **Basic App Functionality:** Stores minimal app settings locally on your device
+<!-- - ✅ **Basic App Functionality:** Stores minimal app settings locally on your device -->
 
 ## Data Storage and Security
 
@@ -69,7 +67,7 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 
 If you have questions about this Privacy Policy or our privacy practices, please contact us:
 
-- **Email:** privacy@pvr-app.com
+- **Email:** rahulbhalley@icloud.com
 - **App Support:** Through the App Store support section
 
 ---
