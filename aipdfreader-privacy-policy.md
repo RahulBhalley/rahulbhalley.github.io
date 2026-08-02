@@ -54,7 +54,7 @@ Used to process documents and generate AI responses. These providers may process
 
 ## Data Retention and Deletion
 - **On-device data**: You can delete a document from the app’s list at any time. This removes the local metadata and generated results from your device.
-- **Cloud data**: Deleting a document locally does not currently trigger a deletion from Firebase Storage. If you require cloud data deletion, please contact us via the GitHub repository issues.
+- **Cloud data**: Deleting a document locally does not currently trigger a deletion from Firebase Storage. If you require cloud data deletion, please contact us using the email address below.
 
 ## Security
 We take reasonable measures to protect your data in transit and at rest. However, no method of transmission over the internet or electronic storage is 100% secure. You should avoid uploading sensitive documents that you are not comfortable processing in the cloud.
@@ -69,5 +69,3 @@ We may update this Privacy Policy from time to time. Updates will be posted with
 If you have questions about this Privacy Policy, contact:
 
 - **Email:** rahulbhalley@icloud.com
-- **GitHub Issues:** [https://github.com/RahulBhalley/AIPDFReader/issues](https://github.com/RahulBhalley/AIPDFReader/issues)
-- **Source Repository:** [https://github.com/RahulBhalley/AIPDFReader](https://github.com/RahulBhalley/AIPDFReader)
