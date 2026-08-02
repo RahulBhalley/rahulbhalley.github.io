@@ -8,6 +8,13 @@ permalink: /hairlab-privacy-policy/
 
 **Last Updated:** August 2, 2026
 
+## HairLab Legal Links
+
+- **Privacy Policy:** [https://rahulbhalley.github.io/hairlab-privacy-policy/](https://rahulbhalley.github.io/hairlab-privacy-policy/)
+- **Terms of Use:** [https://rahulbhalley.github.io/hairlab-terms-of-use/](https://rahulbhalley.github.io/hairlab-terms-of-use/)
+- **Support:** [https://github.com/RahulBhalley/HairLab/issues](https://github.com/RahulBhalley/HairLab/issues)
+- **Source Repository:** [https://github.com/RahulBhalley/HairLab](https://github.com/RahulBhalley/HairLab)
+
 ## Introduction
 
 This Privacy Policy explains how the **HairLab** iOS app ("HairLab," "we," "us," or "our") handles information when you use its hairstyle and hair-color preview features.
@@ -123,4 +130,3 @@ We may update this Privacy Policy to reflect changes to HairLab, its service pro
 For questions or privacy requests, contact:
 
 - **Email:** [rahulbhalley@icloud.com](mailto:rahulbhalley@icloud.com)
-- **GitHub Issues:** [github.com/RahulBhalley/HairLab/issues](https://github.com/RahulBhalley/HairLab/issues)
