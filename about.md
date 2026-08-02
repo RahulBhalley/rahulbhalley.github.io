@@ -30,13 +30,11 @@ My sole aim is to *understand intelligence* in both *humans* and *machines*.
 
 Connect with me:
 - Google Scholar: [Rahul Bhalley][google-scholar]
-- GitHub: [rahulbhalley][github]
 - Twitter: [@Rahul_Bhalley][twiiter]
 - Instagram: [rahulbhalley][instagram]
 - Facebook: [Rahul Bhalley][facebook]
 
 [google-scholar]:   https://scholar.google.co.in/citations?user=5hIJB7oAAAAJ&hl=en
-[github]:           https://www.github.com/rahulbhalley
 [twiiter]:          https://www.twitter.com/@Rahul_Bhalley
 [instagram]:        https://www.instagram.com/rahulbhalley
 [facebook]:         https://www.facebook.com/realcodeboy

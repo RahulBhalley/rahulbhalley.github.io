@@ -12,8 +12,6 @@ permalink: /hairlab-privacy-policy/
 
 - **Privacy Policy:** [https://rahulbhalley.github.io/hairlab-privacy-policy/](https://rahulbhalley.github.io/hairlab-privacy-policy/)
 - **Terms of Use:** [https://rahulbhalley.github.io/hairlab-terms-of-use/](https://rahulbhalley.github.io/hairlab-terms-of-use/)
-- **Support:** [https://github.com/RahulBhalley/HairLab/issues](https://github.com/RahulBhalley/HairLab/issues)
-- **Source Repository:** [https://github.com/RahulBhalley/HairLab](https://github.com/RahulBhalley/HairLab)
 
 ## Introduction
 

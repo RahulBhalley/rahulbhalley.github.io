@@ -14,8 +14,6 @@ permalink: /hairlab-terms-of-use/
 
 - **Privacy Policy:** [https://rahulbhalley.github.io/hairlab-privacy-policy/](https://rahulbhalley.github.io/hairlab-privacy-policy/)
 - **Terms of Use:** [https://rahulbhalley.github.io/hairlab-terms-of-use/](https://rahulbhalley.github.io/hairlab-terms-of-use/)
-- **Support:** [https://github.com/RahulBhalley/HairLab/issues](https://github.com/RahulBhalley/HairLab/issues)
-- **Source Repository:** [https://github.com/RahulBhalley/HairLab](https://github.com/RahulBhalley/HairLab)
 
 ## Agreement to These Terms
 
@@ -180,4 +178,3 @@ These Terms, the HairLab Privacy Policy, and any applicable App Store terms form
 For questions about these Terms, contact:
 
 - **Email:** [rahulbhalley@icloud.com](mailto:rahulbhalley@icloud.com)
-- **GitHub Issues:** [github.com/RahulBhalley/HairLab/issues](https://github.com/RahulBhalley/HairLab/issues)
