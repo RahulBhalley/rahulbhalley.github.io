@@ -10,6 +10,13 @@ permalink: /hairlab-terms-of-use/
 
 **Last Updated:** August 2, 2026
 
+## HairLab Legal Links
+
+- **Privacy Policy:** [https://rahulbhalley.github.io/hairlab-privacy-policy/](https://rahulbhalley.github.io/hairlab-privacy-policy/)
+- **Terms of Use:** [https://rahulbhalley.github.io/hairlab-terms-of-use/](https://rahulbhalley.github.io/hairlab-terms-of-use/)
+- **Support:** [https://github.com/RahulBhalley/HairLab/issues](https://github.com/RahulBhalley/HairLab/issues)
+- **Source Repository:** [https://github.com/RahulBhalley/HairLab](https://github.com/RahulBhalley/HairLab)
+
 ## Agreement to These Terms
 
 These Terms of Use ("Terms") govern your access to and use of the **HairLab** iOS app, provided by Rahul Bhalley ("HairLab," "we," "us," or "our"). By downloading, accessing, or using HairLab, you agree to these Terms and the [HairLab Privacy Policy](/hairlab-privacy-policy/). If you do not agree, do not use HairLab.
