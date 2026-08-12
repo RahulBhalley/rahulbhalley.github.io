@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "HairLab Privacy Policy"
+title: "HairMirror (HairLab) Privacy Policy"
 permalink: /hairlab-privacy-policy/
 ---
 
-# Privacy Policy — HairLab
+# Privacy Policy — HairMirror (HairLab)
 
-**Last Updated:** August 2, 2026
+**Last Updated:** August 12, 2026
 
 ## HairLab Legal Links
 
@@ -15,25 +15,36 @@ permalink: /hairlab-privacy-policy/
 
 ## Introduction
 
-This Privacy Policy explains how the **HairLab** iOS app ("HairLab," "we," "us," or "our") handles information when you use its hairstyle and hair-color preview features.
+This Privacy Policy explains how the **HairMirror** iOS app, whose technical project name is **HairLab** ("HairMirror," "HairLab," "we," "us," or "our"), handles information when you use its hairstyle and hair-color preview features.
 
 ## Summary
 
 - HairLab does not require a user account and does not ask for your name, email address, or phone number.
 - HairLab does not include advertising or analytics SDKs and does not sell personal information.
-- Photos used for cloud hair editing are sent to **Perfect Corp.'s YouCam API** for processing. Do not use a cloud edit if you do not want the selected photo processed by Perfect Corp. and its service providers.
-- Generated edit images and limited app state are stored locally on your device.
+- Photos used for cloud hair editing are sent to **Perfect Corp.'s YouCam API** for processing. Do not use a cloud edit if you do not want the selected photo and its face data processed by Perfect Corp. and its service providers.
+- Generated edit images are stored locally in a replaceable cache and in an on-device history containing up to 20 results.
 - HairLab does not request access to your location, contacts, or microphone.
 
 ## Information HairLab Handles
 
 ### Photos You Choose or Capture
 
-You may select a photo through Apple's system photo picker or capture a portrait with the device camera. HairLab prepares a JPEG copy of that image for editing.
+You may select a photo through Apple's system photo picker or capture a portrait with the device camera. HairLab prepares a normalized JPEG copy, with its longest side limited to 1,024 pixels, for editing.
 
 When you request a cloud hairstyle or hair-color edit, HairLab sends the prepared image and your selected edit options to Perfect Corp.'s YouCam API. Depending on the feature, those options may include a hairstyle template, color values, intensity, shine, blend strength, or placement.
 
-Photos may contain a person's face. Perfect Corp. states that its AI and augmented-reality services may process facial geometry or similar biometric information to provide an effect, but that it does not use facial recognition or identification technology for this purpose. Only use photos of yourself or people who have authorized you to submit their images for cloud processing.
+Photos may contain a person's face. Only use photos of yourself or people who have authorized you to submit their images for cloud processing.
+
+### Face Data
+
+For this policy, **face data** means the following information handled when a submitted photo contains a face:
+
+- The visible face pixels in the selected or captured portrait and in the generated result.
+- Facial geometry or facial feature vectors that Perfect Corp. may derive temporarily from the uploaded portrait to position and render the requested hairstyle or hair-color effect.
+
+HairLab receives a photo only when you deliberately choose one with Apple's system photo picker or camera. It uploads the prepared copy only after you request a cloud edit. HairLab itself does not extract or create a face template, faceprint, facial feature vector, or identity profile. It does not collect TrueDepth depth data or Face ID authentication data and does not perform facial recognition, identification, identity verification, surveillance, advertising, or user profiling.
+
+The face data is used only to prepare the portrait, send the requested edit to Perfect Corp., align and render the hairstyle or hair-color effect, return the generated image, display it, and store the result locally as described below. If you apply hair color to a generated hairstyle result, HairLab prepares and uploads that intermediate face-containing result to Perfect Corp. as the source image for the second edit. Perfect Corp. states that it detects facial feature vectors to apply AR and AI effects and does not use facial recognition or identification technology to provide these services. HairLab does not sell face data or use it for advertising.
 
 ### Technical and Network Information
 
@@ -44,11 +55,14 @@ HairLab does not operate its own analytics service. However, when the app connec
 HairLab stores limited information locally so the app can function:
 
 - Whether onboarding has been completed.
+- Your hairstyle catalog audience preference.
 - The date and number of cloud-edit credits used for the current day.
 - Generated edit images in the app's cache so a result can be shown again without repeating the same cloud request.
+- Up to 20 generated edit images, their creation dates, and the hairstyle or hair-color choice in the app's on-device History.
+- A SHA-256 digest of the prepared JPEG, used locally to match cached results to the source photo. The digest is not a face template and is not uploaded to Perfect Corp.; the cache stores only a further hashed form in its file name.
 - In development builds only, a developer-provided YouCam API key in the iOS Keychain.
 
-The profile choice shown during onboarding is used only for the current onboarding flow and is not currently saved as a persistent preference or sent to HairLab servers.
+The hairstyle catalog audience preference is stored only on your device to choose which hairstyle catalog the app displays. It is not inferred from the photo and is not sent with the photo to Perfect Corp. or to HairLab servers.
 
 ## How Information Is Used
 
@@ -58,6 +72,7 @@ Information is used only to:
 - Generate the hairstyle or hair-color preview you request.
 - Download and display the generated result.
 - Cache generated results on your device.
+- Keep up to 20 generated results in on-device History so you can view or save them again.
 - Enforce the app's daily cloud-edit limit.
 - Diagnose failures using sanitized operation status and error information.
 
@@ -67,9 +82,15 @@ HairLab does not use your photos for advertising, does not build advertising pro
 
 ### Perfect Corp. / YouCam API
 
-Perfect Corp. provides the cloud image-processing service used for hairstyle and hair-color edits. A prepared portrait is uploaded to Perfect Corp. or storage infrastructure designated by Perfect Corp.; HairLab then submits an edit request and downloads the completed result.
+Perfect Corp. provides the cloud image-processing service used for hairstyle and hair-color edits. A prepared portrait or intermediate generated result, together with the edit settings, is uploaded to Perfect Corp.; HairLab then submits the edit request and downloads the completed result. HairLab does not disclose face data to any other third party for its own purposes.
 
-Perfect Corp. may use affiliates and service providers, including cloud infrastructure providers, to deliver its service. Perfect Corp.'s current SaaS privacy policy states that photos submitted for cloud-computing features are deleted from its servers after use of the service is completed. Perfect Corp. independently controls its technical logs, service records, security records, and any legally required retention. Review the [Perfect Corp. YouCam SaaS Privacy Policy](https://www.perfectcorp.com/business/privacy) for its current practices and contact details.
+Perfect Corp. may disclose face data to its affiliates and service providers to operate the requested service and for the ordinary business purposes described in its policy, or where legally required. Its current policy identifies **Amazon Web Services (AWS)** as its server infrastructure provider. Perfect Corp. states that these providers act on its instructions, are subject to strict contractual security requirements, and are required to safeguard information consistently with its policy. HairLab relies on those published commitments to provide the same or equivalent protection required by this policy and [Apple's App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/).
+
+Provider references:
+
+- [Perfect Corp. YouCam SaaS Privacy Policy](https://www.perfectcorp.com/business/privacy), including its biometric-information and service-based retention sections.
+- [Perfect Corp. YouCam Online Editor API Terms](https://www.perfectcorp.com/perfectbeauty/youcam/terms-of-service-api), including its facial-geometry provision.
+- [AWS Privacy Notice](https://aws.amazon.com/privacy/). AWS acts as Perfect Corp.'s infrastructure provider; Perfect Corp., not HairLab, controls that provider relationship and the retention configuration for submitted content.
 
 ### Apple
 
@@ -80,23 +101,29 @@ HairLab uses Apple's camera and system photo-picker technologies. Your photo lib
 HairLab may request:
 
 - **Camera access:** to capture a portrait when you choose **Take a Selfie**.
-- **Photo access through the system picker:** to let you select a specific existing image.
+- **A photo through the system picker:** to let you select a specific existing image without giving HairLab general access to your photo library.
+- **Add-only photo-library access:** only when you choose **Save Photo** or **Save Again**, so iOS can add the generated result to your library.
 
 You can decline camera access and use the system photo picker instead. You can review or revoke permissions in iOS Settings. HairLab does not request access to your location, contacts, or microphone.
 
 ## Data Retention and Deletion
 
-- **Selected or captured photos:** HairLab keeps the active image in memory while you use the editor. The app does not create a permanent local copy of the original photo as part of the current editing flow.
-- **Generated results:** Cached result images remain in HairLab's local cache until you select a replacement photo, iOS clears the cache, or you delete the app.
-- **App state:** Onboarding and daily-credit information remains on the device until it is reset by the app or the app is deleted.
+- **Selected or captured photos on the device:** HairLab keeps the active original and prepared JPEG in memory during the current app session. They are released when you replace the photo or the app process ends. The app does not create a permanent local copy of the original photo as part of the editing flow.
+- **Face geometry or facial feature vectors:** HairLab does not create or retain these. Perfect Corp. states that applicable facial feature vectors are no longer retained once the requested service is complete.
+- **Uploaded portraits and cloud-generated results:** Perfect Corp.'s June 2026 YouCam Online Editor API Terms publish a default period of one day for uploaded User Submissions before automatic deletion and 30 days for AI-generated Content before automatic removal. Its SaaS privacy schedule lists shorter periods for some individual services. Perfect Corp. controls the cloud retention and deletion, and an applicable written service order may specify a different product-specific period.
+- **Local result cache:** A generated result and its source-digest-derived cache file name remain in HairLab's cache until you select a replacement photo, iOS clears the cache, or you delete the app.
+- **Local edit history:** HairLab stores the 20 most recent successful generated results in Application Support on your device. When a twenty-first result is added, the oldest history image is deleted. The remaining history is deleted when you delete the app.
+- **Photos you save:** If you choose **Save Photo** or **Save Again**, iOS adds a separate copy to your photo library. That copy remains until you delete it using Photos and is controlled by you and your Apple photo-library settings.
+- **App state:** Onboarding, hairstyle catalog audience, and daily-credit information remains on the device until it is changed or reset by the app or the app is deleted.
 - **Development API key:** If a key was saved in a development build, it remains in the iOS Keychain until it is cleared from the development settings. Keychain data may not be removed automatically when the app is deleted.
-- **Perfect Corp. data:** Retention is controlled by Perfect Corp. as described in its current privacy policy and any applicable service terms.
 
-To remove HairLab's ordinary local app data, delete the app from your device. If you have a question or deletion request concerning data handled through HairLab, contact us using the details below. Requests concerning information controlled by Perfect Corp. may also need to be directed to Perfect Corp. at the contact address in its privacy policy.
+To remove HairLab's cache and edit history, delete the app from your device. Delete any separately saved result from the Photos app. Because HairLab has no account and does not operate a server that stores your photos, it cannot remotely identify or delete an anonymous device's local files.
+
+If you have a question or deletion request concerning face data handled through HairLab, contact us using the details below. For data still controlled by Perfect Corp., you may also contact [privacyteam@perfectcorp.com](mailto:privacyteam@perfectcorp.com). Perfect Corp. may need information about the request to locate any data that remains within the applicable retention period.
 
 ## Security
 
-HairLab uses encrypted HTTPS connections for cloud requests and stores development API credentials in the iOS Keychain. Cached result images are kept in the app's cache container and excluded from device backups. No transmission or storage method is completely secure, so avoid submitting a photo you are not comfortable processing in the cloud.
+HairLab uses encrypted HTTPS connections for cloud requests and stores development API credentials in the iOS Keychain. Cached results and edit-history files are kept inside the app's private container and excluded from device backups. HairLab's diagnostics do not log submitted images, generated images, facial feature vectors, credentials, or raw service responses. No transmission or storage method is completely secure, so avoid submitting a photo you are not comfortable processing in the cloud.
 
 ## International Data Transfers
 
@@ -110,7 +137,7 @@ You may:
 - Choose a specific photo with Apple's system photo picker.
 - Avoid cloud editing by not selecting a hairstyle or hair-color edit.
 - Revoke app permissions in iOS Settings.
-- Delete HairLab to remove ordinary locally stored app data.
+- Delete HairLab to remove its local cache and edit history, and use Photos to delete any result you separately saved there.
 - Contact us to ask about information handled through HairLab.
 
 Depending on where you live, you may have rights to request access, correction, deletion, restriction, objection, or portability of personal information. Because HairLab has no user accounts, we may need enough information to locate a relevant request, and in some cases Perfect Corp. will be the appropriate party to handle it.
